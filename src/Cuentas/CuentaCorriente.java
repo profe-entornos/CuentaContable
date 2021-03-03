@@ -9,7 +9,7 @@ package Cuentas;
  *
  * @author Sandra
  */
-public class CCuenta {
+public class CuentaCorriente {
 
     /**
      * @return the usuario
@@ -71,10 +71,10 @@ public class CCuenta {
     private double saldo;
     private double tipoInteres;
 
-    public CCuenta() {
+    public CuentaCorriente() {
     }
 
-    public CCuenta(String usuario, String numeroCuenta, double saldo, double tipoInteres) {
+    public CuentaCorriente(String usuario, String numeroCuenta, double saldo, double tipoInteres) {
         this.usuario = usuario;
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
