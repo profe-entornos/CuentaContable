@@ -8,6 +8,7 @@ package Cuentas;
 /**
  *
  * @author Sandra
+ * Visto
  */
 public class CuentaCorriente {
 
